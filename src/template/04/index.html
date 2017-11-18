@@ -9,29 +9,6 @@
 </head>
 <body>
     <div id="app"></div>
-
-    <script type="text/babel">
-        var MyComponent = React.createClass({
-            render: function() {
-                return (
-                    <div>
-                        <h1>Title : {this.props.title}</h1>
-                        <h2>Genre : {this.props.genre}</h2>
-                        <hr />
-                    </div>
-                );
-            }
-        });
-
-        ReactDOM.render(
-            <div>
-                <MyComponent title="The Matrix" genre="Sifi Movie" />
-                <MyComponent title="Avatar" genre="Sifi Movie" />
-                <MyComponent title="Romeo and Juliet" genre="Romantic" />
-                <MyComponent title="Why Don't'" genre="Korea" />
-            </div>,
-            document.getElementById('app')
-        );
-    </script>
+    <script type="text/babel" src="../../react/React04-Props.js"></script>
 </body>
 </html>
